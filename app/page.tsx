@@ -16,7 +16,7 @@ import { Languages, Keywords, Prefectures, Matters } from "@/types/matter";
 import dayjs from "dayjs"; // import文を修正する
 import "./page.scss";
 
-const Home = () => {
+const Home: React.FC = () => {
   const [searchText, setSearchText] = useState("");
 
   const handleInput = (data: { name: string; value: string }) => {

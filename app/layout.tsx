@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { AppHeader } from "@/components/organisms/AppHeader";
+import { AppFooter } from "@/components/organisms/AppFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <AppHeader pageList={pageList} />
         <div className="contents">{children}</div>
+        <AppFooter />
       </body>
     </html>
   );

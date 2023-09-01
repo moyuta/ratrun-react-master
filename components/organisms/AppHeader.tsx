@@ -29,5 +29,3 @@ export const AppHeader: React.FC<AppHeaderProps> = ({ pageList }) => {
     </header>
   );
 };
-
-export default AppHeader;
