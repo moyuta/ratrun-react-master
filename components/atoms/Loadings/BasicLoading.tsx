@@ -8,10 +8,9 @@ const LoadingOverlay: React.FC = () => {
       <div className="overlay"></div>
       <Image
         src={require("@/assets/gif/loading.gif").default}
-        className="loading-image"
         alt={""}
-        width="100"
-        height="500"
+        width="64"
+        height="64"
       />
     </div>
   );
