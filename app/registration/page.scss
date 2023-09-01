@@ -1,0 +1,14 @@
+@import "./assets/scss/variables"; 
+.registration {
+    padding: 100px;
+    @include mobile {
+      padding: 50px;
+    }
+  }
+  form {
+    text-align: center;
+  }
+  .basic-input {
+    margin: 30px auto;
+  }
+  

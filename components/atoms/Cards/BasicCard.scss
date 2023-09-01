@@ -1,0 +1,24 @@
+.basic-card {
+    border: 1px solid gray;
+    width: 350px;
+    padding: 10px;
+  }
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .emphasize {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f86986;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  img {
+    width: 18px;
+    height: 18px;
+  }

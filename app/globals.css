@@ -39,6 +39,9 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
 }
+button{
+  cursor: pointer;
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -86,18 +89,26 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #2d2d2d;
+  background: white;
 }
 
 a {
-  color: inherit;
+  color: #2d2d2d;
   text-decoration: none;
+}
+
+.contents {
+  padding-top: 80px;
+}
+
+input {
+  background: white;
+  color: #2d2d2d;
+}
+
+li{
+  list-style: none;
 }
 
 @media (prefers-color-scheme: dark) {

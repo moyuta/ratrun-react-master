@@ -1,0 +1,15 @@
+$tb:  768px;
+$tb-min:  769px;
+$light-gray: rgb(210, 193, 193);
+
+@mixin tablet {
+  @media only screen and (min-width: ($tb-min)) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media only screen and (max-width: ($tb)) {
+    @content;
+  }
+}

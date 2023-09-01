@@ -1,0 +1,15 @@
+@import "./assets/scss/variables"; 
+.basic-input {
+    width: 100%;
+  }
+  input {
+    width: 100%;
+    border: 1px solid $light-gray;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+    box-sizing: border-box;
+    &:focus {
+      border: 2px solid #75d3d7;
+    }
+  }
